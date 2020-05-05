@@ -42,7 +42,7 @@
           <workerType>Micro</workerType>
           <workers>1</workers> 
           <uri>https://anypoint.mulesoft.com</uri>; 
-          <applicationName>demojenkins</applicationName>
+          <applicationName>demo-jenkins-with-maven</applicationName>
           <objectStoreV2>true</objectStoreV2> 
         </cloudHubDeployment> 
       </configuration> 
