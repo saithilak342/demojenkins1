@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="demojenkinsFlow" doc:id="058d497a-8f45-47e9-9bb4-515bc702f71c" >
 		<http:listener doc:name="Listener" doc:id="7b1cd2e5-fd62-4c78-8f5a-bea4ec56fb39" config-ref="HTTP_Listener_config" path="/demo"/>
-		<logger level="INFO" doc:name="Logger" doc:id="b0472dca-1468-4da5-9f3a-653c3b876ed6" message="jenkins"/>
+		<logger level="INFO" doc:name="Logger" doc:id="b0472dca-1468-4da5-9f3a-653c3b876ed6" message="jenkinsdemo"/>
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="d3e0d158-cecf-4144-a454-616ee950c87f" />
 		<logger level="INFO" doc:name="Logger" doc:id="e0de3ca8-c2b8-46cf-8607-3478cdefbf73" message="jenkinsdemo"/>
 	</flow>
